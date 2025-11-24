@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Calendar, MapPin, Github, Linkedin, Mail, Globe, BookOpen, Camera, GraduationCap } from 'lucide-react'
+import { Github, Linkedin, Mail, BookOpen, Camera, GraduationCap } from 'lucide-react'
 import Timeline from './Timeline'
 import Publications from './Publications'
 
@@ -69,12 +69,12 @@ const Hero = () => {
                   <GraduationCap className="w-5 h-5" />
                   Google Scholar
                 </a>
-                <a href="https://medium.com/@alexlopez" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
+                <a href="https://medium.com/@StatsBio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
                   <BookOpen className="w-5 h-5" />
                   Medium
                 </a>
 
-                <a href="https://500px.com/p/alexlopez" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
+                <a href="https://500px.com/p/Alex_LS?view=photos" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
                   <Camera className="w-5 h-5" />
                   500px
                 </a>
