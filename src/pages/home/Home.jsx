@@ -1,9 +1,11 @@
+import Navbar from "../../components/Navbar";
+import Hero from "../../components/Hero";
+
 function Home() {
   return (
     <>
-      {/* your component */}
-      {/* your component */}
-      {/* your component */}
+      <Navbar />
+      <Hero />
     </>
   );
 }
