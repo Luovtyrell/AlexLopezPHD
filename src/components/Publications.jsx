@@ -1,4 +1,4 @@
-import { ExternalLink, BookOpen, Calendar } from "lucide-react"
+import { ExternalLink, Calendar } from "lucide-react"
 import { publications } from "../data/publications"
 
 const Publications = () => {
@@ -17,7 +17,7 @@ const Publications = () => {
             <div className="card-body p-6">
               <div className="flex flex-col gap-3">
                 <div className="flex justify-between items-start gap-4">
-                  <h4 className="text-xl font-bold text-base-content group-hover:text-primary transition-colors">
+                  <h4 className="text-xl font-bold text-base-content">
                     {pub.title}
                   </h4>
                   <span className="badge badge-ghost font-mono shrink-0 flex items-center gap-1">

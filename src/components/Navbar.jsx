@@ -30,14 +30,14 @@ const Navbar = () => {
           <li><a className="flex items-center gap-2"><Home className="w-4 h-4" /> Home</a></li>
           <li>
             <details>
-              <summary>Proyectos</summary>
+              <summary>Projects</summary>
               <ul className="p-2">
                 <li><a>Submenu 1</a></li>
                 <li><a>Submenu 2</a></li>
               </ul>
             </details>
           </li>
-          <li><a>Item 3</a></li>
+          <li><a></a></li>
         </ul>
       </div>
       <div className="navbar-end gap-2">

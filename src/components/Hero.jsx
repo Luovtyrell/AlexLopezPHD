@@ -29,7 +29,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-base-100 via-base-200 to-base-300 flex items-center justify-center px-6 py-20">
+    <div className="min-h-screen bg-linear-to-br from-base-100 via-base-200 to-base-300 flex items-center justify-center px-6 py-20">
       <div className="max-w-6xl w-full">
         <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 items-start">
 
