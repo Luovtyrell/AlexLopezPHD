@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Github, Linkedin, Mail, BookOpen, Camera, GraduationCap } from 'lucide-react'
 import Timeline from './Timeline'
 import Publications from './Publications'
+import Projects from './Projects'
 
 const Hero = () => {
   const specialties = [
@@ -105,6 +106,7 @@ const Hero = () => {
               </p>
             </div>
             <Publications />
+            <Projects />
             <Timeline />
           </div>
         </div>

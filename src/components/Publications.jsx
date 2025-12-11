@@ -51,7 +51,7 @@ const Publications = () => {
                         href={pub.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-sm btn-ghost gap-2 hover:bg-primary/10 hover:text-primary"
+                        className="btn btn-sm btn-soft gap-2 hover:bg-primary/10 hover:text-primary"
                       >
                         View Publication
                         <ExternalLink className="w-4 h-4" />
