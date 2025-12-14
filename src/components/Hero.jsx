@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Github, Linkedin, Mail, BookOpen, Camera, GraduationCap } from 'lucide-react'
+import { FaMedium, Fa500Px, FaLinkedin } from "react-icons/fa";
+import { FaGoogleScholar } from "react-icons/fa6";
 import Timeline from './Timeline'
 import Publications from './Publications'
 import Projects from './Projects'
@@ -53,7 +55,7 @@ const Hero = () => {
                 </a>
 
                 <a href="https://linkedin.com/in/alex-lopez-ph-d-291322a8" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
-                  <Linkedin className="w-5 h-5" />
+                  <FaLinkedin className="w-5 h-5" />
                   LinkedIn
                 </a>
                 <a href="https://github.com/Calotriton" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
@@ -67,16 +69,16 @@ const Hero = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-base-content hover:text-primary transition-colors"
                 >
-                  <GraduationCap className="w-5 h-5" />
+                  <FaGoogleScholar className="w-5 h-5" />
                   Google Scholar
                 </a>
                 <a href="https://medium.com/@StatsBio" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
-                  <BookOpen className="w-5 h-5" />
+                  <FaMedium className="w-5 h-5" />
                   Medium
                 </a>
 
                 <a href="https://500px.com/p/Alex_LS?view=photos" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base-content hover:text-primary transition-colors">
-                  <Camera className="w-5 h-5" />
+                  <Fa500Px className="w-5 h-5" />
                   500px
                 </a>
 

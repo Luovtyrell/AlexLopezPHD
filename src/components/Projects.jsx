@@ -1,4 +1,5 @@
-import { Github, ExternalLink, Code } from "lucide-react"
+import { Github, Code, Tag } from "lucide-react"
+import { SiHuggingface } from "react-icons/si"
 import { projects } from "../data/projects"
 
 const Projects = () => {
@@ -35,9 +36,10 @@ const Projects = () => {
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="badge badge-sm badge-ghost font-mono text-xs"
+                    className="badge badge-dash badge-primary font-mono text-xs gap-1"
                   >
-                    {tag}
+                    <Tag className="w-3 h-3" />
+                    <span className="text-base-content">{tag}</span>
                   </span>
                 ))}
               </div>
@@ -48,10 +50,10 @@ const Projects = () => {
                     href={project.repo}
                     target="_blank"
                     rel="noopener noreferrer"
-                        className="btn btn-sm btn-soft gap-2 hover:bg-primary/10 hover:text-primary"
+                    className="btn btn-sm btn-soft gap-2 hover:bg-primary/10 hover:text-primary"
                   >
                     <Github className="w-4 h-4" />
-                    GitHub
+                    View on GitHub
                   </a>
                 )}
                 {project.link && (
@@ -59,10 +61,10 @@ const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                        className="btn btn-sm btn-soft gap-2 hover:bg-primary/10 hover:text-primary"
+                    className="btn btn-sm btn-soft gap-2 hover:bg-primary/10 hover:text-primary"
                   >
-                    Visit Project
-                    <ExternalLink className="w-4 h-4" />
+                    <SiHuggingface className="w-4 h-4" />
+                    View on Hugging Face
                   </a>
                 )}
               </div>
