@@ -117,13 +117,14 @@ const Hero = () => {
               <Projects />
             </div>
 
-            <div id="conferences" className="scroll-mt-24">
-              <Conferences />
-            </div>
-
             <div id="timeline" className="scroll-mt-24">
               <Timeline />
             </div>
+
+            <div id="conferences" className="scroll-mt-24">
+              <Conferences />
+            </div>
+          
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import ThemeToggle from './ThemeToggle';
-import { Home, BookOpen, FolderGit2, GraduationCap } from 'lucide-react';
+import { Home, BookOpen, FolderGit2, GraduationCap, Presentation } from 'lucide-react';
 
 const Navbar = () => {
   const scrollToSection = (e, id) => {
@@ -24,6 +24,7 @@ const Navbar = () => {
     { name: 'Publications', href: '#publications', icon: BookOpen },
     { name: 'Projects', href: '#projects', icon: FolderGit2 },
     { name: 'Education', href: '#timeline', icon: GraduationCap },
+    { name: 'Congresses', href: '#conferences', icon: Presentation },
   ];
 
   return (
