@@ -5,6 +5,7 @@ import { FaGoogleScholar } from "react-icons/fa6";
 import Timeline from './Timeline'
 import Publications from './Publications'
 import Projects from './Projects'
+import Conferences from './Conferences'
 
 const Hero = () => {
   const specialties = [
@@ -114,6 +115,10 @@ const Hero = () => {
 
             <div id="projects" className="scroll-mt-24">
               <Projects />
+            </div>
+
+            <div id="conferences" className="scroll-mt-24">
+              <Conferences />
             </div>
 
             <div id="timeline" className="scroll-mt-24">

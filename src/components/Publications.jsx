@@ -20,7 +20,7 @@ const Publications = () => {
                   <h4 className="text-xl font-bold text-base-content">
                     {pub.title}
                   </h4>
-                  <span className="badge badge-ghost font-mono shrink-0 flex items-center gap-1">
+                  <span className="font-mono shrink-0 flex items-center gap-1">
                     <Calendar className="w-3 h-3" />
                     {pub.year}
                   </span>
