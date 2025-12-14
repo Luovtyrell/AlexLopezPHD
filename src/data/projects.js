@@ -2,10 +2,11 @@ export const projects = [
     {
     id: 1,
     title: "RibbID",
-    description: "An R package developed for ecological data analysis and conservation studies.",
-    tags: ["R", "Package", "Ecology", "Data Analysis"],
+    description: "RibbID is a machine learning model based on Convolutional Neural Networks (CNN) to identify anuran species by call.",
+    tags: ["Machine Learning", "ConvNet", "Ecology", "Bioacoustics"],
     link: "https://huggingface.co/spaces/Calotriton/RibbID",
-    repo: "https://github.com/Calotriton/RibbID/blob/main/notebooks/RibbID.ipynb"
+    repo: "https://github.com/Calotriton/RibbID/blob/main/notebooks/RibbID.ipynb",
+    icon: "FaFrog"
   },
   {
     id: 2,
@@ -13,7 +14,7 @@ export const projects = [
     description: "An R package developed for ecological data analysis and conservation studies.",
     tags: ["R", "R Package", "Ecology", "Conservation"],
     link: "",
-    repo: "https://github.com/Calotriton/ECELS"
+    repo: "https://github.com/Calotriton/ECELS",
+    icon: "FaRProject"
   },
-
 ];
