@@ -1,7 +1,31 @@
 import ThemeToggle from './ThemeToggle';
-import { Home } from 'lucide-react';
+import { Home, BookOpen, FolderGit2, GraduationCap } from 'lucide-react';
 
 const Navbar = () => {
+  const scrollToSection = (e, id) => {
+    e.preventDefault();
+    const element = document.querySelector(id);
+    if (element) {
+      const offset = 80;
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  const navItems = [
+    { name: 'Home', href: '#home', icon: Home },
+    { name: 'Publications', href: '#publications', icon: BookOpen },
+    { name: 'Projects', href: '#projects', icon: FolderGit2 },
+    { name: 'Education', href: '#timeline', icon: GraduationCap },
+  ];
+
   return (
     <div className="navbar bg-base-100/70 backdrop-blur-xl border-b border-base-300/50 sticky top-0 z-50">
       <div className="navbar-start">
@@ -12,32 +36,42 @@ const Navbar = () => {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-            <li><a className="flex items-center gap-2"><Home className="w-4 h-4" /> Home</a></li>
-            <li>
-              <a>Proyectos</a>
-              <ul className="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Item 3</a></li>
+            {navItems.map((item) => (
+              <li key={item.name}>
+                <a
+                  href={item.href}
+                  onClick={(e) => scrollToSection(e, item.href)}
+                  className="flex items-center gap-2"
+                >
+                  <item.icon className="w-4 h-4" />
+                  {item.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">Àlex López, Ph.D.</a>
+        <a
+          href="#home"
+          onClick={(e) => scrollToSection(e, '#home')}
+          className="btn btn-ghost text-xl"
+        >
+          Àlex López, Ph.D.
+        </a>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li><a className="flex items-center gap-2"><Home className="w-4 h-4" /> Home</a></li>
-          <li>
-            <details>
-              <summary>Projects</summary>
-              <ul className="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </details>
-          </li>
-          <li><a></a></li>
+        <ul className="flex items-center gap-1 px-1">
+          {navItems.map((item) => (
+            <li key={item.name}>
+              <a
+                href={item.href}
+                onClick={(e) => scrollToSection(e, item.href)}
+                className="btn btn-sm btn-ghost flex items-center gap-2"
+              >
+                <item.icon className="w-4 h-4" />
+                {item.name}
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
       <div className="navbar-end gap-2">

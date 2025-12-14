@@ -32,7 +32,7 @@ const Hero = () => {
   }, [])
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-base-100 via-base-200 to-base-300 flex items-center justify-center px-6 py-20">
+    <div id="home" className="min-h-screen bg-linear-to-br from-base-100 via-base-200 to-base-300 flex items-center justify-center px-6 py-20">
       <div className="max-w-6xl w-full">
         <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-12 items-start">
 
@@ -88,7 +88,7 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col gap-8">
-            <div>
+            <div id="bio">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-4">
                 Àlex López
               </h1>
@@ -107,9 +107,18 @@ const Hero = () => {
                 I'm Àlex López, an <span className="text-primary font-semibold">interdisciplinary ecologist (Ph.D.)</span> and <span className="text-primary font-semibold">data scientist (M.Sc.)</span> working at the intersection of biodiversity, data analysis, statistical modelling, and machine learning. My interests span <span className="text-primary font-semibold">freshwater and marine ecosystems</span>, along with a deep passion for <span className="text-primary font-semibold">herpetology</span>, and I enjoy combining ecological knowledge with modern data tools to support practical management and conservation decisions.
               </p>
             </div>
-            <Publications />
-            <Projects />
-            <Timeline />
+
+            <div id="publications" className="scroll-mt-24">
+              <Publications />
+            </div>
+
+            <div id="projects" className="scroll-mt-24">
+              <Projects />
+            </div>
+
+            <div id="timeline" className="scroll-mt-24">
+              <Timeline />
+            </div>
           </div>
         </div>
       </div>
