@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Github, Linkedin, Mail, BookOpen, Camera, GraduationCap } from 'lucide-react'
+import { Github, Mail } from 'lucide-react'
 import { FaMedium, Fa500Px, FaLinkedin } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
 import Timeline from './Timeline'
