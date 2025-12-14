@@ -41,7 +41,7 @@ const Hero = () => {
             <div className="avatar">
               <div className="w-32 h-32 lg:w-48 lg:h-48 rounded-full ring ring-primary ring-offset-base-100 ring-offset-4 overflow-hidden">
                 <img
-                  src="./public/img/picofme.png"
+                  src="/img/picofme.png"
                   alt="Àlex Lopez"
                   className="w-full h-full object-cover"
                 />
