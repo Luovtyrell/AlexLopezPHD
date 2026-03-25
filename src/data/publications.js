@@ -26,7 +26,7 @@ export const publications = [
     year: "2025",
     title: "Drivers of amphibian species richness in European ponds",
     journal: "Ecography",
-    details: "e07347",
+    details: "",
     doi: "10.1111/ecog.07347",
     link: "https://doi.org/10.1111/ecog.07347"
   },
@@ -36,7 +36,7 @@ export const publications = [
     year: "2025",
     title: "Amphibian conservation in Europe: the importance of pond condition",
     journal: "Biodiversity and Conservation",
-    details: "34: 1559–1574",
+    details: "",
     doi: "10.1007/s10531-025-03033-w",
     link: "https://doi.org/10.1007/s10531-025-03033-w"
   },
@@ -58,7 +58,7 @@ export const publications = [
     title: "Interacting impacts of damming and metal pollution on the Pyrenean Brook Newt, Calotriton asper (Dugès, 1857)",
     journal: "Herpetology Notes",
     details: "16: 361-372",
-    link: "https://www.biotaxa.org/hn/article/view/80516"
+    link: "https://www.biotaxa.org/hn/article/view/71333"
   },
   {
     id: 7,
