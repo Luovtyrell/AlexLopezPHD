@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alex-lopez-phd.vercel.app/sitemap.xml
