@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Mail, Heart } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 import { FaMedium, FaLinkedin } from "react-icons/fa";
 import { FaGoogleScholar } from "react-icons/fa6";
 
@@ -47,13 +47,9 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-3 pt-6 text-sm">
-            <p className="text-base-content/50">
-              © {new Date().getFullYear()} Lucía Ordoñez Vilanova. All rights reserved.
-            </p>
-
             <p className="text-base-content/60 flex items-center gap-2">
+             © {new Date().getFullYear()} 
               <span className="text-base-content/50">Made with</span>
-              <Heart className="w-4 h-4 text-rose-500 animate-pulse" />
               <span className="text-base-content/50">by</span>
               <a
                 href="https://www.linkedin.com/in/Luovtyrell/"

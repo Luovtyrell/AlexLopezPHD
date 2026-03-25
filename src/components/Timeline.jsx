@@ -19,14 +19,14 @@ const Timeline = () => {
             </svg>
           </div>
           <div className="timeline-start mb-10 md:text-end">
-            <time className="font-mono italic">Nov 2025</time>
-            <div className="text-lg text-primary">SnowPro Associate: Platform Certification</div>
-            <div className="text-lg font-black">Snowflake</div>
-            ID: S122770-251117-SOL25
+            <time className="font-mono italic">Mar 2026</time>
+            <div className="text-lg text-primary">Complete Docker course</div>
+            <div className="text-lg font-black">Udemy</div>
           </div>
           <hr />
         </li>
         <li>
+          <hr />
           <div className="timeline-middle">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -42,6 +42,30 @@ const Timeline = () => {
             </svg>
           </div>
           <div className="timeline-end md:mb-10">
+            <time className="font-mono italic">Nov 2025</time>
+            <div className="text-lg text-primary">SnowPro Associate: Platform Certification</div>
+            <div className="text-lg font-black">Snowflake</div>
+            ID: S122770-251117-SOL25
+          </div>
+          <hr />
+        </li>
+        <li>
+          <hr />
+          <div className="timeline-middle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              className="h-5 w-5"
+            >
+              <path
+                fillRule="evenodd"
+                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                clipRule="evenodd"
+              />
+            </svg>
+          </div>
+          <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2024 - 2025</time>
             <div className="text-lg text-primary">Master's degree, Data Science, Big Data, Machine Learning, & AI.</div>
             <div className="text-lg font-black">Universidad Complutense de Madrid</div>
@@ -65,7 +89,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
+          <div className="timeline-end md:mb-10">
             <time className="font-mono italic">2024</time>
             <div className="text-lg text-primary">Data Science for Ecologists and Environmental Scientists</div>
             <div className="text-lg font-black">The Data Lab Innovation Centre</div>
@@ -89,7 +113,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end md:mb-10">
+          <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2024</time>
             <div className="text-lg text-primary">Python 3</div>
             <div className="text-lg font-black">Codecademy</div>
@@ -112,7 +136,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
+          <div className="timeline-end md:mb-10">
             <time className="font-mono italic">2019 - 2022</time>
             <div className="text-lg text-primary">Doctor of Philosophy - PhD, Ecology</div>
             <div className="text-lg font-black">Universitat de Girona</div>
@@ -136,7 +160,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end md:mb-10">
+          <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2021</time>
             <div className="text-lg text-primary">Master Herpetologist Program</div>
             <div className="text-lg font-black">The Amphibian Foundation</div>
@@ -160,7 +184,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
+          <div className="timeline-end md:mb-10">
             <time className="font-mono italic">2016 - 2017 </time>
             <div className="text-lg text-primary">Master's degree in Animal Biodiversity: Conservation and Evolution</div>
             <div className="text-lg font-black">Universitat de València</div>
@@ -184,7 +208,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end md:mb-10">
+          <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2017</time>
             <div className="text-lg text-primary">PADI Divemaster diver</div>
             <div className="text-lg font-black">Excel Scuba Tenerife (ID 407209)</div>
@@ -208,7 +232,7 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-start mb-10 md:text-end">
+          <div className="timeline-end md:mb-10">
             <time className="font-mono italic">jun 2014 - aug 2015</time>
             <div className="text-lg font-black">Universidad de Costa Rica</div>
             <div className="text-lg">Studying abroad for the last year of my bachelor's degree</div>
@@ -231,10 +255,10 @@ const Timeline = () => {
               />
             </svg>
           </div>
-          <div className="timeline-end md:mb-10">
+          <div className="timeline-start mb-10 md:text-end">
             <time className="font-mono italic">2011 - 2015</time>
-            <div className="text-lg font-black">Universitat Autònoma de Barcelona</div>
             <div className="text-lg text-primary">Bachelor of Applied Science (B.A. Sc.) in enviormental biology</div>
+            <div className="text-lg font-black">Universitat Autònoma de Barcelona</div>
             Degree focused in Zoology, botany, ecology, and biodiversity. Also included knowledge of animal and plant physiology, environmental ecotoxicology and management, GIS, and nature conservation.
           </div>
         </li>

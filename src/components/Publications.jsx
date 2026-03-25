@@ -26,9 +26,10 @@ const Publications = () => {
                   </span>
                 </div>
 
-                <p className="text-sm text-base-content/70 leading-relaxed">
-                  {pub.authors}
-                </p>
+                <p 
+                  className="text-sm text-base-content/70 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: pub.authors }}
+                />
 
                 <div className="flex flex-wrap items-center gap-3 mt-2 pt-4 border-t border-base-content/5">
                   <span className="font-semibold text-primary">
